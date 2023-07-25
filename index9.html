@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    section{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 72px;
+        font-weight: 600;
+        color: white;
+        opacity: .8;
+    }
+    body{
+        
+        background-size: cover;
+        background-image: linear-gradient(rgba(218, 42, 194, 0.3), rgb(98, 184, 227)),url('https://im.rediff.com/cricket/2023/may/30ipl-dhoni5.jpg?w=670&h=900')
+    }
+   </style>
+</head>
+<body>
+    <section>
+        <h1 id="h1">Mr.Captain cool</h1>
+        <script>
+            const changeText = () => {
+    setTimeout(() => {
+        document.body.style.background = "https://www.livemint.com/lm-img/img/2023/04/23/600x338/MS_Dhoni_1682266132445_1682266132661.jpg)"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "Calm Captaincy"
+    }, 200)
+    setTimeout(() => {
+        document.body.style.background = "linear-gradient(rgba(255, 29, 29, 0.3), rgba(231, 80, 236, 0.479)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWiC_SfdIccBHVZ3K_9box5Z6eDFyvlfjk92BKZJBxm0nhrL5eOSTZ4veHhk5MZTzp0lA&usqp=CAU')"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "Ability to finish the games in tight situation"
+    }, 400)
+    setTimeout(() => {
+        document.body.style.background = "linear-gradient(rgba(2, 255, 213, 0.3), rgba(255, 23, 23)),url('https://im.rediff.com/cricket/2023/may/30ipl-dhoni5.jpg?w=670&h=900')"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "exceptional wicketkeeper"
+    }, 600)
+    setTimeout(() => {
+        document.body.style.background = "https://cdn.dnaindia.com/sites/default/files/2023/05/14/2589814-untitled-design-2023-05-14t161748.664.jpg?im=FitAndFill=(1200,900))"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "Inspiration"
+    }, 800)
+}
+
+setInterval(changeText, 900)
+        </script>
+        </section>
+</body>
+</html>
